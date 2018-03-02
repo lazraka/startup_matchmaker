@@ -28,4 +28,21 @@ nav{
 	font-weight: 700;
 	font-style: italic;
 }
+.image{
+
+}
+.island{
+	width: 40%;
+	height: 80%;
+}
+h2{
+	font-size: 30px;
+	font-family: Source Sans;
+	font-weight: 700;
+}
+p{
+	font-size: 20px;
+	font-family: Source Sans;
+	font-weight: 400;
+}
 
