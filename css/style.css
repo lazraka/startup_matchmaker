@@ -54,9 +54,12 @@ nav{
 .image{
 	background-image: url("../images/coworking.jpg");
 	height:465px;
+	padding-top: 55px;
+	padding-bottom: 55px;
+	padding-right:30px;
 }
 .island{
-	width: 40%;
+	width: 35%;
 	height: 80%;
 	float:right;
 	background-color: white;
