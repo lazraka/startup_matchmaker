@@ -19,6 +19,12 @@ h1{
 }
 nav{
 	font-size: 20px;
+	float:right;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.page{
+	width:10%;
 }
 .upper{
 	font-family: Oswald;
@@ -37,6 +43,13 @@ nav{
 	font-family: Merriweather;
 	font-weight: 700;
 	font-style: italic;
+	text-align: center;
+	line-height: 25px;
+}
+.slogan{
+	height:75px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 .image{
 	background-image: url("../images/coworking.jpg");
@@ -47,6 +60,7 @@ nav{
 	height: 80%;
 	float:right;
 	background-color: white;
+	padding: 65px 50px 50px 50px;
 }
 .clearfix::after{
 	content:"";
@@ -65,4 +79,31 @@ p{
 	font-family: Source Sans;
 	font-weight: 400;
 }
+a{
+	font-size: 20px;
+	font-family: Oswald;
+	font-weight: 400;
+	height:50px;
+	background-color: #c6c6c6;
+}
+.column{
+	width:33.3%;
+	height:315px;
+	float:left;
+	padding-left: 35px;
+	padding-right: 35px
+	padding-bottom: 50px;
+	padding-top: 60px;
+}
+span{
+	font-size: 20px;
+	font-family: Source Sans;
+	font-weight: 400;
+	color: white;
+}
+footer{
+	padding-top: 45px;
+	padding-left: 30px;
+}
+
 
