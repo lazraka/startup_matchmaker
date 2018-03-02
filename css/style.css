@@ -9,6 +9,8 @@ header,footer{
 }
 header{
 	border-bottom: solid yellow 3px;
+	/*padding-top: 20px;*/
+	/*padding-bottom: 20px;*/
 }
 h1{
 	font-size: 30px;
@@ -16,15 +18,18 @@ h1{
 	font-weight: 700;
 	color: #fdf731;
 	float:left;
+	line-height: 68px;
 }
 nav{
 	font-size: 20px;
 	float:right;
-	padding-top: 25px;
-	padding-bottom: 25px;
 }
 .page{
-	width:10%;
+	width:18%;
+	display:inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
 }
 .upper{
 	font-family: Oswald;
