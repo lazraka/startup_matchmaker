@@ -1,12 +1,21 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header,footer{
 	background-color: black;
+	height:70px;
+}
+header{
+	border-bottom: solid yellow 3px;
 }
 h1{
 	font-size: 30px;
 	font-family: Merriweather;
 	font-weight: 700;
 	color: #fdf731;
+	float:left;
 }
 nav{
 	font-size: 20px;
@@ -20,7 +29,8 @@ nav{
 	font-weight: 400;
 }
 .first-sec{
-	background-color: #c6c6c6
+	background-color: #c6c6c6;
+	height:540px;
 }
 .tagline{
 	font-size: 25px;
@@ -29,11 +39,21 @@ nav{
 	font-style: italic;
 }
 .image{
-
+	background-image: url("../images/coworking.jpg");
+	height:465px;
 }
 .island{
 	width: 40%;
 	height: 80%;
+	float:right;
+	background-color: white;
+}
+.clearfix::after{
+	content:"";
+	clear:both;
+	visibility: :hidden;
+	display: block;
+	height: 0;
 }
 h2{
 	font-size: 30px;
