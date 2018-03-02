@@ -1,0 +1,10 @@
+
+header,footer{
+	background-color: black;
+}
+h1{
+	font-size: 30px;
+	font-family: Merriweather;
+	font-weight: 700;
+	color: #fdf731;
+}
