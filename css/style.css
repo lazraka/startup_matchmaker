@@ -74,10 +74,10 @@ nav{
 	text-decoration-color: #fdf731;
 }
 .parent{
-		height:465px;
-		padding-top: 55px;
-		padding-bottom: 55px;
-		padding-right:30px;
+	height:465px;
+	padding-top: 55px;
+	padding-bottom: 55px;
+	padding-right:30px;
 }
 .image{
 	width:100%;
@@ -94,6 +94,8 @@ nav{
 	background-color: #ffffff;
 	opacity: 0.85;
 	padding: 65px 50px 50px 50px;
+	display: inline-block;
+	transform: scale(1);
 }
 .clearfix::after{
 	content:"";
@@ -131,6 +133,8 @@ a{
 	padding-right: 35px;
 	padding-bottom: 50px;
 	padding-top: 60px;
+}
+.spacer{
 	border-left: solid 1px #ddd;
 }
 h3{
@@ -168,8 +172,10 @@ span{
 	color: white;
 }
 footer{
-	padding-top: 45px;
+	padding-top: 35px;
 	padding-left: 30px;
+	display: block;
+	padding-bottom: 10px;
 }
 
 
