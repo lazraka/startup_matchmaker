@@ -9,6 +9,7 @@ header,footer{
 }
 header{
 	border-bottom: solid yellow 3px;
+	padding-left: 30px;
 	/*padding-top: 20px;*/
 	/*padding-bottom: 20px;*/
 }
@@ -26,9 +27,9 @@ nav{
 	width:45%;
 }
 .page{
-	width:18%;
+	width:20%;
 	display:inline-block;
-	padding-top:10px;
+	padding-top:15px;
 	padding-bottom: 10px;
 	text-decoration-line: none;
 	color: #ffffff;
@@ -41,6 +42,10 @@ nav{
 .capital{
 	font-family: Source Sans;
 	font-weight: 400;
+}
+.blog{
+	text-align: center;
+	width: 10%;
 }
 .first-sec{
 	background-color: #c6c6c6;
