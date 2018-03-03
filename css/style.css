@@ -28,10 +28,11 @@ nav{
 .page{
 	width:18%;
 	display:inline-block;
-	padding-top:5px;
+	padding-top:10px;
 	padding-bottom: 10px;
 	text-decoration-line: none;
 	color: #ffffff;
+	text-align:center;
 }
 .upper{
 	font-family: Oswald;
@@ -108,14 +109,28 @@ a{
 	height:50px;
 	background-color: #c6c6c6;
 }
+.second-sec{
+	padding-left: 35px;
+	padding-right: 35px;
+}
 .column{
 	width:33.3%;
 	height:315px;
 	float:left;
 	padding-left: 35px;
-	padding-right: 35px
+	padding-right: 35px;
 	padding-bottom: 50px;
 	padding-top: 60px;
+	border-left: solid 1px #ddd;
+}
+h3{
+	font-size: 25px;
+	font-family: Merriweather;
+	font-weight: 700;
+	margin-bottom: 3%;
+}
+.questions{
+	margin-bottom: 5%;
 }
 span{
 	font-size: 20px;
