@@ -25,7 +25,7 @@ nav{
 	float:right;
 }
 .page{
-	width:18%;
+	width:20%;
 	display:inline-block;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -56,8 +56,19 @@ nav{
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+.through{
+	text-decoration: line-through;
+	color: #4b4b4b;
+}
+.under{
+	text-decoration: underline;
+	color: black;
+	text-decoration-color: #fdf731;
+}
 .image{
 	background-image: url("../images/coworking.jpg");
+	background-size: cover;
+	background-position: center;
 	height:465px;
 	padding-top: 55px;
 	padding-bottom: 55px;
@@ -67,7 +78,8 @@ nav{
 	width: 35%;
 	height: 80%;
 	float:right;
-	background-color: white;
+	background-color: #ffffff;
+	opacity: 0.85;
 	padding: 65px 50px 50px 50px;
 }
 .clearfix::after{
