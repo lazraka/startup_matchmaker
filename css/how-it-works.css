@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header,footer{
+	background-color: black;
+	height:70px;
+}
+header{
+	border-bottom: solid yellow 3px;
+	padding-left: 30px;
+	/*padding-top: 20px;*/
+	/*padding-bottom: 20px;*/
+}
+h1{
+	font-size: 30px;
+	font-family: Merriweather;
+	font-weight: 700;
+	color: #fdf731;
+	float:left;
+	line-height: 68px;
+}
+nav{
+	font-size: 20px;
+	float:right;
+	width:45%;
+}
+.page{
+	width:20%;
+	display:inline-block;
+	padding-top:15px;
+	padding-bottom: 10px;
+	text-decoration-line: none;
+	color: #ffffff;
+	text-align:center;
+}
+.upper{
+	font-family: Oswald;
+	font-weight: 700;
+}
+.capital{
+	font-family: Source Sans;
+	font-weight: 400;
+}
+.blog{
+	text-align: center;
+	width: 10%;
+}
