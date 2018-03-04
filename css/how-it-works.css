@@ -30,7 +30,7 @@ nav{
 	width:20%;
 	display:inline-block;
 	padding-top:15px;
-	padding-bottom: 10px;
+	padding-bottom: 23px;
 	text-decoration-line: none;
 	color: #ffffff;
 	text-align:center;
@@ -46,4 +46,7 @@ nav{
 .blog{
 	text-align: center;
 	width: 10%;
+}
+.active{
+	background-color: #aaaaaa
 }

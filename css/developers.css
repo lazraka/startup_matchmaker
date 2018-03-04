@@ -28,7 +28,7 @@ nav{
 	width:20%;
 	display:inline-block;
 	padding-top:15px;
-	padding-bottom: 10px;
+	padding-bottom: 22px;
 	text-decoration-line: none;
 	color: #ffffff;
 	text-align:center;
@@ -113,4 +113,7 @@ a,.skills{
 	height:50px;
 	font-size: 20px;
 }
-
+.active{
+	background-color: #aaaaaa
+	/*border-bottom:10px solid #c6c6c6;*/
+}
