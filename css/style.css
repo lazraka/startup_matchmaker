@@ -78,6 +78,7 @@ nav{
 	padding-top: 55px;
 	padding-bottom: 55px;
 	padding-right:30px;
+	display: inline-block;
 }
 .image{
 	width:100%;
@@ -86,6 +87,7 @@ nav{
 	background-image: url("../images/coworking.jpg");
 	background-size: cover;
 	background-position: center;
+	display: block;
 }
 .island{
 	width: 35%;
@@ -94,7 +96,7 @@ nav{
 	background-color: #ffffff;
 	opacity: 0.85;
 	padding: 65px 50px 50px 50px;
-	display: inline-block;
+	display: block;
 	transform: scale(1);
 }
 .clearfix::after{
@@ -177,5 +179,7 @@ footer{
 	display: block;
 	padding-bottom: 10px;
 }
-
+.hold-island{
+	display: inline-block;
+}
 
